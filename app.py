@@ -6,8 +6,8 @@ st.set_page_config(page_title="Explain It Like I'm Smart (But Lazy)", layout="ce
 
 api_key = os.getenv("ANTHROPIC_API_KEY")
 
-st.title("🧠 Explain It Like I'm Smart (But Lazy)")
-st.write("Understand anything quickly — no fluff, no nonsense.")
+st.title("🧠 Clarity Lab")
+st.caption("Understand anything quickly — clear, structured, no fluff.")
 
 topic = st.text_input("What do you want to understand?")
 
